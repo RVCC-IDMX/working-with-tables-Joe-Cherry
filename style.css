@@ -1,3 +1,25 @@
 body {
   background-color: aliceblue;
 }
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: #333;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #ddd;
+}
+table {
+  background-color: #4899cf;
+}
